@@ -1,0 +1,33 @@
+/* body{
+    font-family: Arial, sans-serif;
+    /* background-image: url(".");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content{
+    background-color: aqua;
+    width:30%;
+    height:50vh;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container{
+    display: flex;
+    width: 50%;
+    gap:2rem;
+} */

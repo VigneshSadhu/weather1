@@ -1,0 +1,26 @@
+.App-container {
+    /* You might want some overall styling here */
+  }
+  
+  header {
+    display: flex; /* Enables flexbox for layout */
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center; /* Vertically aligns items */
+    padding: 10px 20px; /* Add some padding around the header */
+    /* Add other header styles like background color, etc. */
+    background-color: #f0f0f0; /* Example background color */
+  }
+  
+  .app-title {
+    /* Styles for the "My App" title */
+  }
+  
+  .feature-container {
+    display: flex; /* Enables flexbox for the features */
+    justify-content: space-between; /* Distributes space between items */
+    gap: 20px; /* Adds space between the feature items */
+  }
+  
+  .feature-container p {
+    /* Styles for the feature items */
+  }
