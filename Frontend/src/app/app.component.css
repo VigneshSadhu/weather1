@@ -1,5 +1,5 @@
 .App-container {
-    /* You might want some overall styling here */
+  font-family: sans-serif;
   }
   
   header {
@@ -8,11 +8,16 @@
     align-items: center; /* Vertically aligns items */
     padding: 10px 20px; /* Add some padding around the header */
     /* Add other header styles like background color, etc. */
-    background-color: #f0f0f0; /* Example background color */
+    background-color: #F5F5DC; /* Example background color */
   }
   
-  .app-title {
-    /* Styles for the "My App" title */
+  .Title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .span-class{
+    color:#4CAF50;
   }
   
   .feature-container {
@@ -21,6 +26,12 @@
     gap: 20px; /* Adds space between the feature items */
   }
   
-  .feature-container p {
-    /* Styles for the feature items */
+
+  .feature-item a{
+    color:white;
+    text-decoration: none;
+    padding: 10px 15px;
+    /* border: 1px solid blue; */
+    border-radius: 5px;
+    background-color: #4CAF50;
   }
