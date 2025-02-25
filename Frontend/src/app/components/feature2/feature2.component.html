@@ -1,16 +1,1 @@
-<div>
-    <h1>Air Pollution Data</h1>
-    <input [(ngModel)]="city" placeholder="Enter city name" />
-    <button (click)="getAirPollution()">Get Air Pollution Data</button>
-  
-    <div *ngIf="pollutionData; else noData">  <h2>Pollution Data for {{ city }}</h2>
-  
-      <p>Air Quality Index (AQI): {{ pollutionData.Eindex }}</p>  </div>
-  
-    <ng-template #noData>  <div *ngIf="errorMessage">  <p style="color: red;">{{ errorMessage }}</p>
-      </div>
-      <div *ngIf="!errorMessage && city"> <p>No air pollution data available for {{ city }}.</p>
-      </div>
-    </ng-template>
-  
-  </div>
+<p>feature2 works!</p>
